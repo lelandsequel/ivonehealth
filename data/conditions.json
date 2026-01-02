@@ -1,0 +1,107 @@
+[
+    {
+        "slug": "multiple-sclerosis-riyadh",
+        "title": "Multiple Sclerosis (MS)",
+        "category": "Neurology"
+    },
+    {
+        "slug": "rheumatoid-arthritis-riyadh",
+        "title": "Rheumatoid Arthritis",
+        "category": "Rheumatology"
+    },
+    {
+        "slug": "ankylosing-spondylitis-riyadh",
+        "title": "Ankylosing Spondylitis",
+        "category": "Rheumatology"
+    },
+    {
+        "slug": "systemic-lupus-erythematosus-riyadh",
+        "title": "Systemic Lupus Erythematosus (SLE)",
+        "category": "Rheumatology"
+    },
+    {
+        "slug": "crohns-disease-riyadh",
+        "title": "Crohn's Disease",
+        "category": "Gastroenterology"
+    },
+    {
+        "slug": "ulcerative-colitis-riyadh",
+        "title": "Ulcerative Colitis",
+        "category": "Gastroenterology"
+    },
+    {
+        "slug": "psoriasis-riyadh",
+        "title": "Psoriasis",
+        "category": "Dermatology"
+    },
+    {
+        "slug": "atopic-dermatitis-riyadh",
+        "title": "Atopic Dermatitis",
+        "category": "Dermatology"
+    },
+    {
+        "slug": "severe-asthma-riyadh",
+        "title": "Severe Asthma",
+        "category": "Immunology"
+    },
+    {
+        "slug": "ivig-infusion-riyadh",
+        "title": "IVIG Therapy Needs",
+        "category": "Immunology"
+    },
+    {
+        "slug": "breast-cancer-infusion-riyadh",
+        "title": "Breast Cancer",
+        "category": "Oncology"
+    },
+    {
+        "slug": "lung-cancer-infusion-riyadh",
+        "title": "Lung Cancer",
+        "category": "Oncology"
+    },
+    {
+        "slug": "colorectal-cancer-infusion-riyadh",
+        "title": "Colorectal Cancer",
+        "category": "Oncology"
+    },
+    {
+        "slug": "leukemia-lymphoma-infusion-riyadh",
+        "title": "Leukemia & Lymphoma",
+        "category": "Hematology"
+    },
+    {
+        "slug": "melanoma-infusion-riyadh",
+        "title": "Melanoma",
+        "category": "Oncology"
+    },
+    {
+        "slug": "kidney-cancer-infusion-riyadh",
+        "title": "Kidney Cancer",
+        "category": "Oncology"
+    },
+    {
+        "slug": "stomach-esophageal-cancer-infusion-riyadh",
+        "title": "Stomach & Esophageal Cancer",
+        "category": "Oncology"
+    },
+    {
+        "slug": "head-neck-cancer-infusion-riyadh",
+        "title": "Head & Neck Cancer",
+        "category": "Oncology"
+    },
+    {
+        "slug": "liver-cancer-infusion-riyadh",
+        "title": "Liver Cancer",
+        "category": "Oncology"
+    },
+    {
+        "slug": "iron-deficiency-anemia-riyadh",
+        "title": "Iron Deficiency Anemia",
+        "category": "Supportive"
+    },
+    {
+        "slug": "medical-iv-vitamin-drips-riyadh",
+        "title": "Nutritional Deficiencies",
+        "category": "Supportive"
+    }
+]

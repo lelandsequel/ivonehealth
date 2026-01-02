@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "infusion-therapy-riyadh",
+    "title": "Infusion Therapy",
+    "description": "Comprehensive outpatient infusion services for chronic conditions, administered by specialized nurses under medical supervision.",
+    "category": "Core"
+  },
+  {
+    "slug": "biologic-infusions-riyadh",
+    "title": "Biologic Infusions",
+    "description": "Targeted therapies for autoimmune diseases including Rheumatoid Arthritis, Crohn's, and Psoriasis.",
+    "category": "Specialized"
+  },
+  {
+    "slug": "ivig-infusion-riyadh",
+    "title": "IVIG Infusion",
+    "description": "Intravenous Immunoglobulin therapy for immune deficiencies and neurological conditions.",
+    "category": "Specialized"
+  },
+  {
+    "slug": "chemotherapy-infusions-riyadh",
+    "title": "Chemotherapy Infusions",
+    "description": "Outpatient chemotherapy administration in a comfortable, private setting for oncology patients.",
+    "category": "Oncology"
+  },
+  {
+    "slug": "iron-infusion-riyadh",
+    "title": "Iron Infusion",
+    "description": "Rapid iron replacement therapy for iron deficiency anemia.",
+    "category": "Supportive"
+  },
+  {
+    "slug": "allergy-immunotherapy-injections-riyadh",
+    "title": "Allergy Immunotherapy",
+    "description": "Desensitization injections for severe allergies under strict observation.",
+    "category": "Specialized"
+  },
+  {
+    "slug": "hydration-therapy-riyadh",
+    "title": "Hydration Therapy",
+    "description": "Medical-grade fluids and electrolytes for severe dehydration or recovery.",
+    "category": "Supportive"
+  },
+  {
+    "slug": "hormone-replacement-therapy-riyadh",
+    "title": "Hormone Replacement Therapy",
+    "description": "Bio-identical hormone therapy administration under physician prescription.",
+    "category": "Wellness/Medical"
+  },
+  {
+    "slug": "medical-iv-vitamin-drip-therapy-riyadh",
+    "title": "Medical IV Vitamin Drips",
+    "description": "Physician-prescribed micronutrient therapy for specific deficiencies.",
+    "category": "Supportive"
+  }
+]

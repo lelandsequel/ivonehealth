@@ -1,0 +1,122 @@
+[
+    {
+        "slug": "what-is-infusion-therapy",
+        "question": "What is infusion therapy?",
+        "shortAnswer": "Infusion therapy is the administration of medication or fluids directly into a vein using a needle or catheter. It is used when oral medication is not effective or appropriate for the condition.",
+        "category": "Basics"
+    },
+    {
+        "slug": "how-long-does-infusion-therapy-take",
+        "question": "How long does infusion therapy take?",
+        "shortAnswer": "Infusion times vary significantly by medication. A simple hydration drip may take 45 minutes, while complex biologic or chemotherapy infusions can take 2 to 6 hours.",
+        "category": "Logistics"
+    },
+    {
+        "slug": "is-infusion-therapy-safe",
+        "question": "Is infusion therapy safe?",
+        "shortAnswer": "Yes, when performed in a licensed clinic under strict medical supervision. Risks exist but are managed by trained nurses who monitor vitals and check for reactions.",
+        "category": "Safety"
+    },
+    {
+        "slug": "what-is-ivig-infusion",
+        "question": "What is IVIG infusion?",
+        "shortAnswer": "IVIG (Intravenous Immunoglobulin) contains antibodies from healthy donors. It helps patients with weakened immune systems or autoimmune conditions fight infections and regulate immune response.",
+        "category": "Treatments"
+    },
+    {
+        "slug": "biologic-therapy-what-to-expect",
+        "question": "Biologic therapy infusion: what to expect?",
+        "shortAnswer": "Biologic infusions use substances made from living organisms to target specific parts of the immune system. Expect a pre-screening for infections and a monitoring period during infusion.",
+        "category": "Treatments"
+    },
+    {
+        "slug": "chemotherapy-infusion-what-to-know",
+        "question": "Chemotherapy infusion: what patients should know",
+        "shortAnswer": "Chemo infusions deliver cancer-fighting drugs directly to the blood. Sessions can be long, and side effects vary. Pre-medications are often given to reduce nausea.",
+        "category": "Oncology"
+    },
+    {
+        "slug": "iron-infusion-what-to-expect",
+        "question": "Iron infusion: what to expect?",
+        "shortAnswer": "Iron infusions are used for severe anemia. The process takes 30-60 minutes. Some patients feel an immediate boost in energy days later, though mild side effects can occur.",
+        "category": "Supportive"
+    },
+    {
+        "slug": "how-to-prepare-for-infusion-appointment",
+        "question": "How to prepare for an infusion appointment",
+        "shortAnswer": "Drink plenty of water (unless restricted), eat a light meal, bring a list of medications, and wear comfortable clothing with easy arm access.",
+        "category": "Preparation"
+    },
+    {
+        "slug": "can-i-drive-after-infusion",
+        "question": "Can I drive after an infusion?",
+        "shortAnswer": "Most patients can drive home. However, if your treatment includes sedating medications (like Benadryl), you must arrange for a ride.",
+        "category": "Logistics"
+    },
+    {
+        "slug": "what-to-bring-to-infusion-clinic",
+        "question": "What to bring to an infusion clinic",
+        "shortAnswer": "Bring your ID, insurance card, medication list, a book or tablet, and a sweater (clinics can be cool). Simple snacks are often allowed.",
+        "category": "Preparation"
+    },
+    {
+        "slug": "can-i-eat-before-an-infusion",
+        "question": "Can I eat before an infusion?",
+        "shortAnswer": "Yes, eating a light meal facilitates easier vein access and stabilizes blood sugar. Avoid heavy, greasy foods if your medication causes nausea.",
+        "category": "Preparation"
+    },
+    {
+        "slug": "infusion-therapy-side-effects-urgent",
+        "question": "Infusion therapy side effects: normal vs urgent",
+        "shortAnswer": "Normal: mild fatigue, metallic taste. Urgent: shortness of breath, chest pain, swelling of lips/throat (signs of anaphylaxis).",
+        "category": "Safety"
+    },
+    {
+        "slug": "hydration-therapy-medical-vs-wellness",
+        "question": "Hydration therapy: medical vs wellness differences",
+        "shortAnswer": "Medical hydration treats diagnosed dehydration (e.g., from illness). Wellness drips are elective for energy/recovery. Medical clinics prioritize sterility and prescription-based care.",
+        "category": "Basics"
+    },
+    {
+        "slug": "vitamin-drips-medical-supervision",
+        "question": "Vitamin drips under medical supervision: when they're used",
+        "shortAnswer": "Used for confirmed deficiencies (e.g., B12, Magnesium) or malabsorption issues (e.g., post-bariatric surgery). Safety is higher than 'drip bars'.",
+        "category": "Supportive"
+    },
+    {
+        "slug": "allergy-immunotherapy-injections-expect",
+        "question": "Allergy immunotherapy injections: what to expect",
+        "shortAnswer": "A series of injections with increasing allergens to build tolerance. Patients must stay for observation (usually 30 mins) after each shot.",
+        "category": "Treatments"
+    },
+    {
+        "slug": "private-infusion-suites-immunocompromised",
+        "question": "Private infusion suites: why they matter",
+        "shortAnswer": "Private suites reduce exposure to airborne pathogens, critical for immunocompromised patients. They also provide privacy and reduce anxiety.",
+        "category": "Facilities"
+    },
+    {
+        "slug": "how-referrals-work-infusion-riyadh",
+        "question": "How referrals work for infusion therapy in Riyadh",
+        "shortAnswer": "Your primary specialist sends a referral order. The infusion clinic validates it, checks insurance, and schedules you. You don't usually 'walk in' for medical infusion.",
+        "category": "Process"
+    },
+    {
+        "slug": "insurance-approvals-scheduling",
+        "question": "Insurance and approvals: how scheduling works",
+        "shortAnswer": "Scheduling happens AFTER insurance approval is secured to avoid unexpected bills. This process can take 24-72 hours depending on the carrier.",
+        "category": "Process"
+    },
+    {
+        "slug": "when-to-contact-clinic-vs-physician",
+        "question": "When to contact the clinic vs your physician",
+        "shortAnswer": "Contact Clinic: Scheduling, billing, minor side effects post-infusion. Contact Physician: Disease progression, new symptoms, or major medical questions.",
+        "category": "Process"
+    },
+    {
+        "slug": "is-infusion-therapy-painful",
+        "question": "Is infusion therapy painful?",
+        "shortAnswer": "There is a brief pinch during needle insertion. Once the IV is placed, the infusion itself is typically painless. Notify your nurse if you feel burning.",
+        "category": "Comfort"
+    }
+]
