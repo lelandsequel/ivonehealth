@@ -8,7 +8,7 @@
     {
         "slug": "how-long-does-infusion-therapy-take",
         "question": "How long does infusion therapy take?",
-        "shortAnswer": "Infusion times vary significantly by medication. A simple hydration drip may take 45 minutes, while complex biologic or chemotherapy infusions can take 2 to 6 hours.",
+        "shortAnswer": "Infusion times vary by medication and protocol. Some infusions may take under an hour, while others can take several hours including observation time.",
         "category": "Logistics"
     },
     {
@@ -38,7 +38,7 @@
     {
         "slug": "iron-infusion-what-to-expect",
         "question": "Iron infusion: what to expect?",
-        "shortAnswer": "Iron infusions are used for severe anemia. The process takes 30-60 minutes. Some patients feel an immediate boost in energy days later, though mild side effects can occur.",
+        "shortAnswer": "Iron infusions are used when prescribed for iron deficiency. The infusion often takes under an hour, and some protocols include an observation period. Side effects vary by medication.",
         "category": "Supportive"
     },
     {
@@ -50,7 +50,7 @@
     {
         "slug": "can-i-drive-after-infusion",
         "question": "Can I drive after an infusion?",
-        "shortAnswer": "Most patients can drive home. However, if your treatment includes sedating medications (like Benadryl), you must arrange for a ride.",
+        "shortAnswer": "Many patients can drive home. If your infusion includes sedating pre-medications, you may need someone to drive you—follow your clinic’s instructions.",
         "category": "Logistics"
     },
     {
@@ -74,13 +74,13 @@
     {
         "slug": "hydration-therapy-medical-vs-wellness",
         "question": "Hydration therapy: medical vs wellness differences",
-        "shortAnswer": "Medical hydration treats diagnosed dehydration (e.g., from illness). Wellness drips are elective for energy/recovery. Medical clinics prioritize sterility and prescription-based care.",
+        "shortAnswer": "Medical hydration is used when a clinician determines IV fluids are appropriate for a patient’s condition. Some services marketed as “wellness drips” are elective; prescription-based care prioritizes safety and appropriate indications.",
         "category": "Basics"
     },
     {
         "slug": "vitamin-drips-medical-supervision",
         "question": "Vitamin drips under medical supervision: when they're used",
-        "shortAnswer": "Used for confirmed deficiencies (e.g., B12, Magnesium) or malabsorption issues (e.g., post-bariatric surgery). Safety is higher than 'drip bars'.",
+        "shortAnswer": "When prescribed, micronutrient infusions may be used for documented deficiencies or malabsorption. Your clinician will determine if IV administration is appropriate and safe for you.",
         "category": "Supportive"
     },
     {
@@ -104,7 +104,7 @@
     {
         "slug": "insurance-approvals-scheduling",
         "question": "Insurance and approvals: how scheduling works",
-        "shortAnswer": "Scheduling happens AFTER insurance approval is secured to avoid unexpected bills. This process can take 24-72 hours depending on the carrier.",
+        "shortAnswer": "Scheduling often happens after required insurance approvals are obtained to reduce unexpected costs. Timelines vary by insurer, plan, and medication.",
         "category": "Process"
     },
     {

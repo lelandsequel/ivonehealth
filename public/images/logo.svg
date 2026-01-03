@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="IV One Health logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#004d40"/>
+      <stop offset="1" stop-color="#4db6ac"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="280" height="280" rx="64" fill="url(#g)"/>
+  <circle cx="160" cy="160" r="86" fill="rgba(255,255,255,0.14)"/>
+  <path d="M132 214h-22l-34-108h24l22 76 22-76h24l-36 108Zm48 0h-22V106h22v108Zm40-64h-20v-20h20v20Zm0 34h-20v-20h20v20Z" fill="#fff"/>
+</svg>
+
+

@@ -12,7 +12,7 @@ export default function PatientProcess() {
             <Container>
                 <h1 className="text-4xl font-bold mb-8 text-primary">The Patient Care Process</h1>
                 <p className="text-xl mb-12 max-w-3xl">
-                    At IV One Health, your safety and comfort are our priorities. We administer expert infusion care in a private, clinical setting under strict medical supervision.
+                    This page explains the typical steps for prescription-based infusion care. Your referring physician directs your medical plan; our role is safe administration and coordination.
                 </p>
 
                 <div className="space-y-12">
@@ -22,7 +22,7 @@ export default function PatientProcess() {
                         <div>
                             <h2 className="text-2xl font-semibold mb-3 text-primary">Referral & Prescription</h2>
                             <p className="text-lg">
-                                Your treatment begins with a prescription from your managing physician (e.g., oncologist, rheumatologist, neurologist). We coordinate directly with your doctor to ensure we have the precise orders, dosage, and protocols for your therapy. We review every order for safety before scheduling.
+                                Your treatment begins with an order from your managing physician (for example, an oncologist, rheumatologist, or neurologist). We confirm the medication, dose, frequency, and required monitoring instructions before scheduling.
                             </p>
                         </div>
                     </section>
@@ -33,7 +33,7 @@ export default function PatientProcess() {
                         <div>
                             <h2 className="text-2xl font-semibold mb-3 text-primary">Insurance & Approval</h2>
                             <p className="text-lg">
-                                Our team handles the prior authorization process with your insurance provider. We verify coverage and discuss any out-of-pocket costs with you upfront, so there are no surprises.
+                                When required by your plan, we support benefits verification and prior authorization paperwork using documentation from your physician. Coverage and timelines vary by insurer and medication.
                             </p>
                         </div>
                     </section>
@@ -44,12 +44,12 @@ export default function PatientProcess() {
                         <div>
                             <h2 className="text-2xl font-semibold mb-3 text-primary">Your Appointment</h2>
                             <p className="text-lg mb-4">
-                                On the day of your infusion, you will be welcomed into a private infusion suite designed for comfort and infection control.
+                                On the day of your infusion, you will be checked in and brought to a clinical space designed for comfort and infection control.
                             </p>
                             <ul className="list-disc pl-5 space-y-2 text-gray-700">
-                                <li><strong>Arrival:</strong> Please arrive 15 minutes early for initial vitals check.</li>
-                                <li><strong>Comfort:</strong> Our suites include reclining chairs, Wi-Fi, and entertainment options.</li>
-                                <li><strong>Support:</strong> You are welcome to bring one companion if you wish.</li>
+                                <li><strong>Check-in:</strong> Identification, consent, and a vitals assessment (as ordered).</li>
+                                <li><strong>Comfort:</strong> Bring something to read or listen to; sessions vary in length by medication.</li>
+                                <li><strong>Support:</strong> Depending on clinic policy and infection control needs, a companion may be allowed.</li>
                             </ul>
                         </div>
                     </section>
@@ -60,7 +60,7 @@ export default function PatientProcess() {
                         <div>
                             <h2 className="text-2xl font-semibold mb-3 text-primary">Clinical Supervision & Monitoring</h2>
                             <p className="text-lg">
-                                Dedicated infusion nurses monitor you throughout the entire session. We track vital signs and watch for any reactions. Our clinical team is trained to manage hypersensitivity and emergency situations immediately.
+                                Infusion nurses monitor you throughout the session and follow your prescribed protocol, including observation periods when applicable. If you feel unwell at any point, tell your nurse right away.
                             </p>
                         </div>
                     </section>
@@ -71,7 +71,7 @@ export default function PatientProcess() {
                         <div>
                             <h2 className="text-2xl font-semibold mb-3 text-primary">Wrap-Up & Follow-Up</h2>
                             <p className="text-lg">
-                                After your infusion, we ensure you are stable and ready to leave. We share treatment records with your referring physician to maintain continuity of care. We will schedule your next session before you depart.
+                                After your infusion, we review any post-care instructions and coordinate documentation with your referring physician to support continuity of care. Follow-up scheduling depends on your treatment plan and authorization status.
                             </p>
                         </div>
                     </section>

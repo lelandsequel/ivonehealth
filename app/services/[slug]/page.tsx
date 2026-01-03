@@ -57,8 +57,8 @@ export default async function ServicePage({ params }: Props) {
                     <div className="card">
                         <h3>Who it&apos;s for</h3>
                         <p style={{ color: 'var(--gray-600)', margin: 0 }}>
-                            This therapy is typically prescribed for patients who require ongoing management of chronic conditions,
-                            or for acute needs such as severe dehydration or iron deficiency.
+                            This therapy is prescribed by a physician when IV administration is clinically appropriate for the medication and your condition.
+                            Eligibility, protocols, and monitoring requirements vary by drug and diagnosis.
                         </p>
                     </div>
                 </div>
@@ -86,11 +86,11 @@ export default async function ServicePage({ params }: Props) {
                 </section>
 
                 <div style={{ backgroundColor: 'var(--primary)', color: 'white', padding: '2.5rem', borderRadius: 'var(--radius-2xl)', textAlign: 'center' }}>
-                    <h3 style={{ color: 'white', marginBottom: '1rem' }}>Ready to schedule?</h3>
+                    <h3 style={{ color: 'white', marginBottom: '1rem' }}>Questions about scheduling?</h3>
                     <p style={{ color: 'var(--primary-light)', marginBottom: '2rem', maxWidth: '32rem', marginLeft: 'auto', marginRight: 'auto' }}>
-                        Contact our team to verify your insurance coverage and schedule your appointment.
+                        We can explain the steps, confirm required documents from your physician, and help you understand insurance approval timelines.
                     </p>
-                    <a href="tel:+966000000000" className="btn btn-white">Book Appointment</a>
+                    <Link href="/contact" className="btn btn-white">Contact</Link>
                 </div>
             </div>
         </main>

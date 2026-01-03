@@ -26,7 +26,7 @@
   {
     "slug": "iron-infusion-riyadh",
     "title": "Iron Infusion",
-    "description": "Rapid iron replacement therapy for iron deficiency anemia.",
+    "description": "Prescription-based IV iron administration when medically indicated (for example, iron deficiency anemia).",
     "category": "Supportive"
   },
   {
@@ -38,19 +38,19 @@
   {
     "slug": "hydration-therapy-riyadh",
     "title": "Hydration Therapy",
-    "description": "Medical-grade fluids and electrolytes for severe dehydration or recovery.",
+    "description": "IV fluids and electrolytes when prescribed for medically indicated dehydration or supportive care.",
     "category": "Supportive"
   },
   {
     "slug": "hormone-replacement-therapy-riyadh",
     "title": "Hormone Replacement Therapy",
-    "description": "Bio-identical hormone therapy administration under physician prescription.",
+    "description": "Administration support for hormone therapy when prescribed by a licensed physician, following documented orders and monitoring requirements.",
     "category": "Wellness/Medical"
   },
   {
     "slug": "medical-iv-vitamin-drip-therapy-riyadh",
     "title": "Medical IV Vitamin Drips",
-    "description": "Physician-prescribed micronutrient therapy for specific deficiencies.",
+    "description": "Micronutrient infusions when prescribed for documented deficiencies or malabsorption, with appropriate clinical oversight.",
     "category": "Supportive"
   }
 ]

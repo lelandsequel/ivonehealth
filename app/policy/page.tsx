@@ -32,17 +32,17 @@ export default function EditorialPolicy() {
                             We are committed to providing accurate, evidence-based, and medically reviewed information. Our content creation process follows strict guidelines:
                         </p>
                         <ul className="list-disc pl-6 space-y-2">
-                            <li><strong>Clinical Accuracy:</strong> All medical content is reviewed by licensed healthcare professionals to ensure alignment with current clinical guidelines and standards of care.</li>
-                            <li><strong>Evidence-Based:</strong> We claim outcomes only when supported by peer-reviewed research or established clinical protocols. We avoid "miracle cure" language.</li>
-                            <li><strong>Transparency:</strong> We clearly distinguish between standard medical treatments (e.g., oncology, immunology) and supportive therapies (e.g., nutritional support).</li>
-                            <li><strong>Updates:</strong> Medical knowledge evolves. We periodically review our content to ensure it remains current.</li>
+                            <li><strong>Clinical Accuracy:</strong> We aim to align content with widely accepted clinical guidance and standard practice. When content is reviewed, it is reviewed for clarity and safety.</li>
+                            <li><strong>Evidence-Based:</strong> We avoid outcome promises and sensational language. Responses to therapy vary by patient, diagnosis, and medication.</li>
+                            <li><strong>Transparency:</strong> We distinguish between patient education content and the care plan prescribed by your physician.</li>
+                            <li><strong>Updates:</strong> We periodically review pages to keep information current and easy to understand.</li>
                         </ul>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4 text-primary">Licensed Clinic Information</h2>
+                        <h2 className="text-2xl font-semibold mb-4 text-primary">Clinic & Regulatory Context</h2>
                         <p className="mb-4">
-                            IV One Health is a licensed outpatient infusion center operating under the Ministry of Health (MOH) in the Kingdom of Saudi Arabia. We adhere to all regulatory standards for infection control, medication safety, and patient care.
+                            IV One Health is an outpatient infusion clinic in the Kingdom of Saudi Arabia. We follow applicable safety and infection control requirements, and we administer therapies based on physician orders and documented protocols.
                         </p>
                     </section>
                 </div>

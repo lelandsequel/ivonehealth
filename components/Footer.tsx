@@ -1,6 +1,29 @@
+ "use client";
+
 import Link from 'next/link';
+import { usePathname } from "next/navigation";
+import { SITE } from "@/lib/site";
 
 export default function Footer() {
+    const hasPhone = Boolean(SITE.phoneE164);
+    const pathname = usePathname();
+    const isPresentation = pathname === "/presentation" || pathname.startsWith("/presentation/");
+
+    if (isPresentation) {
+        return (
+            <footer className="footer">
+                <div className="container">
+                    <div className="footer-bottom" style={{ borderTop: "none", paddingTop: 0 }}>
+                        <p>&copy; {new Date().getFullYear()} C&amp;L Strategy.</p>
+                        <p style={{ maxWidth: '32rem' }}>
+                            Presentation mode: SEO/AEO/pSEO system overview (not medical advice).
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        );
+    }
+
     return (
         <footer className="footer">
             <div className="container">
@@ -9,12 +32,14 @@ export default function Footer() {
                     <div>
                         <h3 className="footer-brand-title">IV One Health</h3>
                         <p className="footer-brand-description">
-                            Licensed specialized infusion clinic in Riyadh, providing expert care for chronic and complex conditions.
+                            Prescription-based outpatient infusion care in Riyadh, focused on safety, coordination, and patient comfort.
                         </p>
                         <address style={{ opacity: 0.8, fontSize: '0.875rem' }}>
-                            <p>Riyadh, Saudi Arabia</p>
-                            <p><a href="tel:+966000000000" style={{ color: 'inherit' }}>011-000-0000</a></p>
-                            <p><a href="mailto:info@ivonehealth.com" style={{ color: 'inherit' }}>info@ivonehealth.com</a></p>
+                            <p>{SITE.city}, {SITE.country}</p>
+                            {hasPhone ? (
+                                <p><a href={`tel:${SITE.phoneE164}`} style={{ color: 'inherit' }}>{SITE.phoneE164}</a></p>
+                            ) : null}
+                            <p><a href={`mailto:${SITE.email}`} style={{ color: 'inherit' }}>{SITE.email}</a></p>
                         </address>
                     </div>
 
@@ -46,14 +71,14 @@ export default function Footer() {
                         <div className="footer-badge">
                             <span className="footer-badge-dot footer-badge-dot-green"></span>
                             <div>
-                                <p style={{ fontWeight: 700, fontSize: '0.875rem', marginBottom: '0.25rem' }}>MOH Licensed</p>
-                                <p style={{ fontSize: '0.75rem', opacity: 0.75 }}>Ministry of Health, KSA</p>
+                                <p style={{ fontWeight: 700, fontSize: '0.875rem', marginBottom: '0.25rem' }}>MOH-regulated</p>
+                                <p style={{ fontSize: '0.75rem', opacity: 0.75 }}>Ministry of Health (KSA)</p>
                             </div>
                         </div>
                         <div className="footer-badge">
                             <span className="footer-badge-dot footer-badge-dot-blue"></span>
                             <div>
-                                <p style={{ fontWeight: 700, fontSize: '0.875rem', marginBottom: '0.25rem' }}>CHI Accredited</p>
+                                <p style={{ fontWeight: 700, fontSize: '0.875rem', marginBottom: '0.25rem' }}>CHI-aligned billing</p>
                                 <p style={{ fontSize: '0.75rem', opacity: 0.75 }}>Council of Health Insurance</p>
                             </div>
                         </div>
