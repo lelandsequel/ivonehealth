@@ -14,8 +14,8 @@ export default function PresentationPage() {
   return (
     <main className="section section-gray">
       <Container className="max-w-4xl">
-        <div style={{ display: "flex", justifyContent: "space-between", gap: "1rem", alignItems: "center", marginBottom: "1rem", flexWrap: "wrap" }}>
-          <h1 style={{ margin: 0 }}>How This Site Was Built</h1>
+        <div className="presentation-header">
+          <h1>How This Site Was Built</h1>
           <SegmentedToggle
             label="Presentation view"
             options={[

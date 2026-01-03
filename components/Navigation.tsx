@@ -82,11 +82,11 @@ export default function Navigation() {
                         </div>
                         {!isPresentation ? (
                             <>
-                                <Link href="/conditions-we-treat" className="nav-link" onClick={() => setIsOpen(false)} style={{ display: 'block', padding: '0.5rem 0' }}>Conditions</Link>
-                                <Link href="/services" className="nav-link" onClick={() => setIsOpen(false)} style={{ display: 'block', padding: '0.5rem 0' }}>Services</Link>
-                                <Link href="/guides" className="nav-link" onClick={() => setIsOpen(false)} style={{ display: 'block', padding: '0.5rem 0' }}>Guides</Link>
-                                <Link href="/patient-process" className="nav-link" onClick={() => setIsOpen(false)} style={{ display: 'block', padding: '0.5rem 0' }}>Patient Process</Link>
-                                <Link href="/contact" className="btn btn-primary" onClick={() => setIsOpen(false)} style={{ display: 'block', marginTop: '1rem', textAlign: 'center' }}>Contact</Link>
+                                <Link href="/conditions-we-treat" className="nav-link nav-mobile-link" onClick={() => setIsOpen(false)}>Conditions</Link>
+                                <Link href="/services" className="nav-link nav-mobile-link" onClick={() => setIsOpen(false)}>Services</Link>
+                                <Link href="/guides" className="nav-link nav-mobile-link" onClick={() => setIsOpen(false)}>Guides</Link>
+                                <Link href="/patient-process" className="nav-link nav-mobile-link" onClick={() => setIsOpen(false)}>Patient Process</Link>
+                                <Link href="/contact" className="btn btn-primary nav-mobile-cta" onClick={() => setIsOpen(false)}>Contact</Link>
                             </>
                         ) : null}
                     </div>

@@ -10,23 +10,30 @@ export default function ServicesHub() {
     const categories = Array.from(new Set(services.map(s => s.category)));
 
     return (
-        <main className="section section-gray">
-            <div className="container">
-                <div className="section-header">
-                    <span className="section-label">Comprehensive Care</span>
-                    <h1 className="section-title">Infusion Services</h1>
-                    <p className="section-description">
-                        Clinical excellence in outpatient infusion care, providing a safe and comfortable alternative to hospital admission.
-                    </p>
+        <main>
+            {/* Hero Section */}
+            <section
+                className="hero hero-photo"
+                style={{ backgroundImage: "url(/images/legacy/ivone-bg.jpg)" }}
+            >
+                <div className="container">
+                    <div className="hero-inner">
+                        <span className="section-label">Comprehensive Care</span>
+                        <h1 className="hero-title">Infusion Services</h1>
+                        <p className="hero-lede">
+                            Clinical excellence in outpatient infusion care, providing a safe and comfortable alternative to hospital admission.
+                        </p>
+                    </div>
                 </div>
+            </section>
 
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '4rem' }}>
+            <section className="section section-gray">
+                <div className="container">
+
+                <div className="stack-lg">
                     {categories.map(category => (
                         <section key={category}>
-                            <h2 style={{ fontSize: '1.5rem', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                                <span style={{ width: '2rem', height: '2rem', backgroundColor: 'var(--primary)', color: 'white', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.875rem' }}>
-                                    {category.charAt(0)}
-                                </span>
+                            <h2 className="category-heading">
                                 {category}
                             </h2>
                             <div className="grid md-grid-cols-2 lg-grid-cols-3 gap-6">
@@ -41,7 +48,8 @@ export default function ServicesHub() {
                         </section>
                     ))}
                 </div>
-            </div>
+                </div>
+            </section>
         </main>
     );
 }

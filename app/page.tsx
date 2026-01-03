@@ -43,22 +43,22 @@ export default function Home() {
         style={{ backgroundImage: "url(/images/legacy/ivone-bg.jpg)" }}
       >
         <div className="container">
-          <div style={{ maxWidth: '48rem' }}>
+          <div className="hero-inner">
             <span className="section-label">Based in Riyadh, KSA</span>
-            <h1 style={{ fontSize: '3rem', lineHeight: 1.1, marginBottom: '1.5rem' }}>
+            <h1 className="hero-title">
               Specialized Infusion Therapy <br />
-              <span style={{ color: 'var(--primary-light)' }}>Under Medical Supervision</span>
+              <span className="hero-title-accent">Under Medical Supervision</span>
             </h1>
-            <p style={{ fontSize: '1.25rem', color: 'var(--gray-700)', marginBottom: '2.5rem', maxWidth: '40rem', fontWeight: 300 }}>
+            <p className="hero-lede">
               IV One Health is an outpatient clinic providing prescription-based infusion care in a private, comfortable setting.
               We coordinate with your referring physician and follow the ordered protocol and monitoring requirements.
             </p>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginBottom: '2rem' }}>
+            <div className="hero-actions">
               <Link href="/contact" className="btn btn-primary">Contact the Clinic</Link>
               <Link href="/conditions-we-treat" className="btn btn-outline">View Conditions</Link>
             </div>
 
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '2rem' }}>
+            <div className="hero-badges">
               <span className="trust-badge"><span className="badge-dot badge-dot-green"></span> MOH-regulated</span>
               <span className="trust-badge"><span className="badge-dot badge-dot-blue"></span> CHI-aligned billing</span>
               <span className="trust-badge"><span className="badge-dot badge-dot-purple"></span> Private Suites</span>
@@ -122,14 +122,14 @@ export default function Home() {
       {/* Conditions Section */}
       <section className="section section-gray">
         <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '3rem', flexWrap: 'wrap', gap: '1rem' }}>
+          <div className="section-header-row">
             <div>
               <h2 className="section-title">Conditions We Manage</h2>
-              <p style={{ fontSize: '1.125rem', color: 'var(--gray-600)', maxWidth: '40rem' }}>
+              <p className="section-description" style={{ textAlign: "left", marginLeft: 0, marginRight: 0 }}>
                 We work with your physician to manage complex conditions through precise infusion therapies.
               </p>
             </div>
-            <Link href="/conditions-we-treat" style={{ fontWeight: 700 }}>View All Conditions →</Link>
+            <Link href="/conditions-we-treat" className="section-link">View All Conditions →</Link>
           </div>
 
           <div className="grid md-grid-cols-2 lg-grid-cols-3 gap-8">

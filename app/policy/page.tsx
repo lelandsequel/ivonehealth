@@ -8,9 +8,25 @@ export const metadata: Metadata = {
 
 export default function EditorialPolicy() {
     return (
-        <main className="py-12">
-            <Container>
-                <h1 className="text-4xl font-bold mb-8 text-primary">Editorial Policy & Medical Disclaimer</h1>
+        <main>
+            {/* Hero Section */}
+            <section
+                className="hero hero-photo"
+                style={{ backgroundImage: "url(/images/legacy/ivone-bg.jpg)" }}
+            >
+                <div className="container">
+                    <div className="hero-inner">
+                        <span className="section-label">Trust & Transparency</span>
+                        <h1 className="hero-title">Editorial Policy & Medical Disclaimer</h1>
+                        <p className="hero-lede">
+                            Our commitment to clinical accuracy, medical review standards, and disclaimer regarding medical advice.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section section-gray">
+                <Container>
 
                 <div className="prose max-w-none space-y-8 text-lg">
                     <section>
@@ -46,7 +62,8 @@ export default function EditorialPolicy() {
                         </p>
                     </section>
                 </div>
-            </Container>
+                </Container>
+            </section>
         </main>
     );
 }

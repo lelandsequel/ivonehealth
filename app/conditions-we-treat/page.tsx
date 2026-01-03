@@ -10,20 +10,30 @@ export default function ConditionsHub() {
     const categories = Array.from(new Set(conditions.map(c => c.category)));
 
     return (
-        <main className="section section-gray">
-            <div className="container">
-                <div className="section-header">
-                    <span className="section-label">Our Expertise</span>
-                    <h1 className="section-title">Conditions We Treat</h1>
-                    <p className="section-description">
-                        Specialized infusion care for a wide range of medical conditions, administered under strict safety protocols.
-                    </p>
+        <main>
+            {/* Hero Section */}
+            <section
+                className="hero hero-photo"
+                style={{ backgroundImage: "url(/images/legacy/ivone-bg.jpg)" }}
+            >
+                <div className="container">
+                    <div className="hero-inner">
+                        <span className="section-label">Our Expertise</span>
+                        <h1 className="hero-title">Conditions We Treat</h1>
+                        <p className="hero-lede">
+                            Specialized infusion care for a wide range of medical conditions, administered under strict safety protocols.
+                        </p>
+                    </div>
                 </div>
+            </section>
+
+            <section className="section section-gray">
+                <div className="container">
 
                 <div className="grid md-grid-cols-2 lg-grid-cols-3 gap-8">
                     {categories.map(category => (
                         <section key={category} className="card">
-                            <h2 style={{ fontSize: '1.25rem', marginBottom: '1.5rem', paddingBottom: '1rem', borderBottom: '1px solid var(--gray-100)' }}>{category}</h2>
+                            <h2 className="card-title-divider">{category}</h2>
                             <ul style={{ listStyle: 'none' }}>
                                 {conditions.filter(c => c.category === category).map(condition => (
                                     <li key={condition.slug}>
@@ -37,7 +47,8 @@ export default function ConditionsHub() {
                         </section>
                     ))}
                 </div>
-            </div>
+                </div>
+            </section>
         </main>
     );
 }

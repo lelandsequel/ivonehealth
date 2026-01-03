@@ -8,12 +8,25 @@ export const metadata: Metadata = {
 
 export default function PatientProcess() {
     return (
-        <main className="py-12">
-            <Container>
-                <h1 className="text-4xl font-bold mb-8 text-primary">The Patient Care Process</h1>
-                <p className="text-xl mb-12 max-w-3xl">
-                    This page explains the typical steps for prescription-based infusion care. Your referring physician directs your medical plan; our role is safe administration and coordination.
-                </p>
+        <main>
+            {/* Hero Section */}
+            <section
+                className="hero hero-photo"
+                style={{ backgroundImage: "url(/images/legacy/ivone-bg.jpg)" }}
+            >
+                <div className="container">
+                    <div className="hero-inner">
+                        <span className="section-label">How It Works</span>
+                        <h1 className="hero-title">The Patient Care Process</h1>
+                        <p className="hero-lede">
+                            This page explains the typical steps for prescription-based infusion care. Your referring physician directs your medical plan; our role is safe administration and coordination.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section section-gray">
+                <Container>
 
                 <div className="space-y-12">
                     {/* Step 1 */}
@@ -76,7 +89,8 @@ export default function PatientProcess() {
                         </div>
                     </section>
                 </div>
-            </Container>
+                </Container>
+            </section>
         </main>
     );
 }

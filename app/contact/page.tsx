@@ -12,14 +12,26 @@ export default function ContactPage() {
   const hasPhone = Boolean(SITE.phoneE164);
 
   return (
-    <main className="section section-gray">
-      <Container className="max-w-4xl">
-        <div className="card">
-          <h1 style={{ marginBottom: "1.25rem" }}>Contact</h1>
-          <p style={{ fontSize: "1.125rem", color: "var(--gray-700)", marginBottom: "1.75rem" }}>
-            For medical infusion therapy, treatment must be <strong>prescribed by your managing physician</strong>.
-            We can help with scheduling, coordinating orders, and explaining the insurance approval process.
-          </p>
+    <main>
+      {/* Hero Section */}
+      <section
+        className="hero hero-photo"
+        style={{ backgroundImage: "url(/images/legacy/ivone-bg.jpg)" }}
+      >
+        <div className="container">
+          <div className="hero-inner">
+            <span className="section-label">Get In Touch</span>
+            <h1 className="hero-title">Contact</h1>
+            <p className="hero-lede">
+              For medical infusion therapy, treatment must be prescribed by your managing physician. We can help with scheduling, coordinating orders, and explaining the insurance approval process.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-gray">
+        <Container className="max-w-4xl">
+          <div className="card">
 
           <div className="grid md-grid-cols-2 gap-8">
             <section>
@@ -62,9 +74,12 @@ export default function ContactPage() {
             </section>
           </div>
         </div>
-      </Container>
+        </Container>
+      </section>
     </main>
   );
 }
+
+
 
 

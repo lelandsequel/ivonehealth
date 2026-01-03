@@ -10,20 +10,30 @@ export default function GuidesHub() {
     const categories = Array.from(new Set(guides.map(g => g.category)));
 
     return (
-        <main className="section section-gray">
-            <div className="container">
-                <div className="section-header">
-                    <span className="section-label">Patient Education</span>
-                    <h1 className="section-title">Infusion Therapy Guides</h1>
-                    <p className="section-description">
-                        Straightforward answers to your questions about infusion therapy, safety, and patient care.
-                    </p>
+        <main>
+            {/* Hero Section */}
+            <section
+                className="hero hero-photo"
+                style={{ backgroundImage: "url(/images/legacy/ivone-bg.jpg)" }}
+            >
+                <div className="container">
+                    <div className="hero-inner">
+                        <span className="section-label">Patient Education</span>
+                        <h1 className="hero-title">Infusion Therapy Guides</h1>
+                        <p className="hero-lede">
+                            Straightforward answers to your questions about infusion therapy, safety, and patient care.
+                        </p>
+                    </div>
                 </div>
+            </section>
 
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
+            <section className="section section-gray">
+                <div className="container">
+
+                <div className="stack-lg">
                     {categories.map(category => (
                         <section key={category}>
-                            <h2 style={{ fontSize: '1.5rem', marginBottom: '1.5rem', paddingBottom: '0.5rem', borderBottom: '1px solid var(--gray-200)' }}>{category}</h2>
+                            <h2 className="category-heading">{category}</h2>
                             <div className="grid md-grid-cols-2 lg-grid-cols-3 gap-6">
                                 {guides.filter(g => g.category === category).map(guide => (
                                     <Link href={`/guides/${guide.slug}`} key={guide.slug} className="content-card">
@@ -36,7 +46,8 @@ export default function GuidesHub() {
                         </section>
                     ))}
                 </div>
-            </div>
+                </div>
+            </section>
         </main>
     );
 }

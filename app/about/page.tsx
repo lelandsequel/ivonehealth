@@ -9,14 +9,26 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <main className="section section-gray">
-      <Container className="max-w-4xl">
-        <div className="card prose">
-          <h1>About IV One Health</h1>
-          <p>
-            IV One Health is an outpatient clinic focused on <strong>prescription-based infusion care</strong>.
-            We coordinate with your referring specialist and administer therapies in a controlled clinical environment.
-          </p>
+    <main>
+      {/* Hero Section */}
+      <section
+        className="hero hero-photo"
+        style={{ backgroundImage: "url(/images/legacy/ivone-bg.jpg)" }}
+      >
+        <div className="container">
+          <div className="hero-inner">
+            <span className="section-label">Who We Are</span>
+            <h1 className="hero-title">About IV One Health</h1>
+            <p className="hero-lede">
+              An outpatient clinic focused on prescription-based infusion care. We coordinate with your referring specialist and administer therapies in a controlled clinical environment.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-gray">
+        <Container className="max-w-4xl">
+          <div className="card prose">
           <h2>What we do</h2>
           <ul>
             <li>Coordinate physician orders and required monitoring protocols</li>
@@ -33,9 +45,12 @@ export default function AboutPage() {
             <a href="/policy">editorial policy and disclaimer</a>.
           </p>
         </div>
-      </Container>
+        </Container>
+      </section>
     </main>
   );
 }
+
+
 
 

@@ -8,13 +8,25 @@ export const metadata: Metadata = {
 
 export default function InsuranceApprovals() {
     return (
-        <main className="py-12">
-            <Container>
-                <h1 className="text-4xl font-bold mb-8 text-primary">Insurance & Payment Information</h1>
-                <p className="text-xl mb-12 max-w-3xl">
-                    Insurance coverage and approvals depend on your plan, diagnosis, and the prescribed medication. This page explains the process in neutral terms so you know what to expect.
-                </p>
+        <main>
+            {/* Hero Section */}
+            <section
+                className="hero hero-photo"
+                style={{ backgroundImage: "url(/images/legacy/ivone-bg.jpg)" }}
+            >
+                <div className="container">
+                    <div className="hero-inner">
+                        <span className="section-label">Payment & Coverage</span>
+                        <h1 className="hero-title">Insurance & Payment Information</h1>
+                        <p className="hero-lede">
+                            Insurance coverage and approvals depend on your plan, diagnosis, and the prescribed medication. This page explains the process in neutral terms so you know what to expect.
+                        </p>
+                    </div>
+                </div>
+            </section>
 
+            <section className="section section-gray">
+                <Container>
                 <div className="grid md:grid-cols-2 gap-12">
                     <div>
                         <h2 className="text-2xl font-semibold mb-4 text-primary">Accepted Insurance</h2>
@@ -64,7 +76,8 @@ export default function InsuranceApprovals() {
                         Contact
                     </a>
                 </div>
-            </Container>
+                </Container>
+            </section>
         </main>
     );
 }
